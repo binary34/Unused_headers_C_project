@@ -9,6 +9,22 @@ All the files (header files,source files and Makefile) of the C project should c
 
 To run the program:
 
-           gcc main.c -o test.c
+           gcc main.c -o test
           
            ./test <path_to_C_Project>
+           
+           
+           
+Example:
+           gcc main.c -o test
+
+           ./test test_project/
+           
+Output:
+The unused headers:
+j.h
+copyright.h
+b.h
+c.h
+
+
